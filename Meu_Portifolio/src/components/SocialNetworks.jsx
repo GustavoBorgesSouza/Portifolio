@@ -2,8 +2,8 @@ import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import '../assets/styles/components/socialNetworks.sass';
 
 const socialNetworks = [
-    {name: 'github', icon: <FaGithub/>, link: 'oi'},
-    {name: 'linkedin', icon: <FaLinkedinIn/>, link: 'olá'},
+    {name: 'github', icon: <FaGithub/>, link: 'https://github.com/GustavoBorgesSouza'},
+    {name: 'linkedin', icon: <FaLinkedinIn/>, link: 'https://www.linkedin.com/in/gustavoborgessouza/'},
 ]
 
 export default function SocialNetworks(){
@@ -12,7 +12,7 @@ export default function SocialNetworks(){
         <section id='social-networks'>
             {
                 socialNetworks.map((network)=>(
-                    <a href='#' className='social-btn' id={network.name} key={network.name}>
+                    <a href={network.link} className='social-btn' id={network.name} key={network.name}>
                         {network.icon}
                     </a>
                 ))

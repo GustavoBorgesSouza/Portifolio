@@ -13,17 +13,19 @@
         color: #333
         font-size: 1.2rem
         @include mixins.center
+        color: variables.$text-color
 
-    #linkedin
-        color: #0072b1
-
-    #github
-        color: #111
-    
-    :hover
+    #linkedin:hover
         background: variables.$gradient
         > svg
-            color: variables.$text-color
+            color: #0072b1
+
+    #github:hover
+
+        background: variables.$gradient
+        > svg
+            color: #111
+
 
         
     

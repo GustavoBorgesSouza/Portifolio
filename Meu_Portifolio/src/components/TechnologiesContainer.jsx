@@ -21,7 +21,7 @@ export default function TechnologiesContainer(){
         {id: 'sass', name: 'Sass', icon: <DiSass/>},
         {id: 'node', name: 'Node.js', icon: <DiNodejsSmall/>},
         {id: 'dotnet', name: '.Net', icon: <DiDotnet/>},
-        {id: 'sqlserver', name: 'SQLSERVER', icon: <DiMsqlServer/>},
+        {id: 'sqlserver', name: 'SQLServer', icon: <DiMsqlServer/>},
     ]
 
     return(
@@ -34,7 +34,6 @@ export default function TechnologiesContainer(){
                             {tech.icon}
                             <div className="technology-info">
                                 <h3>{tech.name}</h3>
-                                <p>oi</p>
                             </div>
                         </div>
                     ))

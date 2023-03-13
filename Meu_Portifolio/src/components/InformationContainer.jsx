@@ -11,7 +11,7 @@ export default function InformationContainer() {
                 <AiFillPhone id='phone-icon' />
                 <div>
                     <h3>Telefone</h3>
-                    <p>(11)954680453</p>
+                    <a href="tel:(11)954680453">(11) 954680453</a>
                 </div>
             </div>
 
@@ -19,7 +19,7 @@ export default function InformationContainer() {
                 <AiOutlineMail id='email-icon' />
                 <div>
                     <h3>Email</h3>
-                    <p>sgustavo.borges10@gmail.com</p>
+                    <a href="mailto:sgustavo.borges10@gmail.com">sgustavo.borges10@gmail.com</a>
                 </div>
             </div>
             
